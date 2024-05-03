@@ -21,10 +21,6 @@ ul, li {
   padding-left: 0;
 }
 
-img {
-  width: 100%;
-}
-
 a {
   text-decoration: none;
   color: inherit;
