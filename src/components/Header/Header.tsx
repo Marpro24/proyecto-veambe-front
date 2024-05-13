@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import HeaderStyled from "./HeaderStyled";
+import Navigation from "../Navigation/Navigation";
 
 const Header = (): React.ReactElement => {
   return (
@@ -13,6 +14,14 @@ const Header = (): React.ReactElement => {
           height="38"
         />
       </Link>
+      <Navigation />
+      <a
+        className="insta-link"
+        href="https://www.instagram.com/veambe/?hl=es"
+        target="_blank"
+      >
+        instagram
+      </a>
     </HeaderStyled>
   );
 };
