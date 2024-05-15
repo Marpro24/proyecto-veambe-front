@@ -8,7 +8,7 @@ const Header = (): React.ReactElement => {
       <Link to={"/home"}>
         <img
           className="header-logo"
-          src="/public/images/logo-veambe.webp"
+          src="/images/logo-veambe.webp"
           alt="logo veambe"
           width="114"
           height="38"

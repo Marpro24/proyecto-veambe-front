@@ -6,7 +6,7 @@ const mainTheme: DefaultTheme = {
     accent: "#6dacbf",
   },
   typography: {
-    mainFontFamily: "'space-grotesk'",
+    mainFontFamily: "Verdana, Geneva, Tahoma, sans-serif",
   },
 };
 
