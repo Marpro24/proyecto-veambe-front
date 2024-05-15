@@ -12,7 +12,7 @@ const HeaderStyled = styled.header`
 
   .insta-link {
     padding-top: 12px;
-    color: #6dacbf;
+    color: ${({ theme }) => theme.colors.accent};
     font-size: 1.063rem;
     margin-right: 50px;
   }

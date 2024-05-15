@@ -7,12 +7,12 @@ const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
 }
 
-html {
-  font-family: ${({ theme }) => theme.typography.mainFontFamily};
-}
+
 
 body, h1, h2, h3, p {
   margin: 0;
+    font-family: ${({ theme }) => theme.typography.mainFontFamily};
+
 }
 
 ul, li {

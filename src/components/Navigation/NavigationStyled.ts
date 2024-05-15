@@ -9,7 +9,7 @@ const NavigationStyled = styled.nav`
 
   .navigation-links {
     font-size: 1.063rem;
-    color: #6dacbf;
+    color: ${({ theme }) => theme.colors.accent};
   }
 
   .active {
