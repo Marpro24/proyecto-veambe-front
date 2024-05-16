@@ -5,9 +5,12 @@ const HeaderStyled = styled.header`
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  padding-top: 20px;
 
   .header-logo {
     object-fit: cover;
+    position: absolute;
+    left: 40px;
   }
 
   .insta-link {
@@ -18,16 +21,17 @@ const HeaderStyled = styled.header`
   }
 
   @media (max-width: 450px) {
-    width: inherit;
+    width: 30px;
     gap: 10px;
     .insta-link {
-      font-size: 0.938rem;
+      font-size: 0.75rem;
       margin-right: 3px;
     }
 
     .header-logo {
       width: 100;
       height: 20;
+      position: static;
     }
   }
 `;
