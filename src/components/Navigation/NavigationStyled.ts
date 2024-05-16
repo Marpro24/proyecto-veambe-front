@@ -3,7 +3,7 @@ import styled from "styled-components";
 const NavigationStyled = styled.nav`
   .navigation {
     display: flex;
-    gap: 10px;
+    gap: 50px;
     padding-top: 10px;
   }
 
@@ -17,8 +17,11 @@ const NavigationStyled = styled.nav`
   }
 
   @media (max-width: 450px) {
+    .navigation {
+      gap: 10px;
+    }
     .navigation-links {
-      font-size: 0.938rem;
+      font-size: 0.75rem;
     }
   }
 `;
