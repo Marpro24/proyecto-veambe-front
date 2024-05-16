@@ -5,6 +5,13 @@ const HomepageStyled = styled.main`
     width: 650px;
     margin-left: 55px;
   }
+
+  @media (max-width: 450px) {
+    .hero {
+      width: 300px;
+      margin: 0;
+    }
+  }
 `;
 
 export default HomepageStyled;
