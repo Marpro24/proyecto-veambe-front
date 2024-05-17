@@ -21,6 +21,10 @@ const FooterStyled = styled.div`
     gap: 10px;
     font-size: 2rem;
   }
+
+  @media (max-width: 450px) {
+    position: fixed;
+  }
 `;
 
 export default FooterStyled;
