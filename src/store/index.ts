@@ -1,7 +1,8 @@
 import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
+import { veambeReducer } from "./features/veambe/veambeSlice";
 
 export const store = configureStore({
-  reducer: {},
+  reducer: { veambeState: veambeReducer },
 });
 
 export type AppDispatch = typeof store.dispatch;
