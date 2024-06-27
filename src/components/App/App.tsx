@@ -2,8 +2,8 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import Header from "../Header/Header";
 import AppStyled from "./AppStyled";
 import Footer from "../Footer/Footer";
-import Homepage from "../pages/Homepage/Homepage";
-import NotFoundPage from "../pages/NotFoundPage/NotFoundPage";
+import Homepage from "../../pages/Homepage/Homepage";
+import NotFoundPage from "../../pages/NotFoundPage/NotFoundPage";
 
 const App = (): React.ReactElement => {
   return (
