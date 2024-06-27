@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const HomepageStyled = styled.main`
   .hero {
-    width: 650px;
+    width: 550px;
     margin-left: 55px;
   }
 
