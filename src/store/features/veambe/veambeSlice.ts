@@ -1,12 +1,12 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 import { VeambeStateStructure, VeambeStructure } from "./types";
 
-const initialVeambeSlice: VeambeStateStructure = {
-  artwork: [],
+export const initialVeambeSlice: VeambeStateStructure = {
+  artworks: [],
 };
 
 const veambeSlice = createSlice({
-  name: "artwork",
+  name: "artworks",
   initialState: initialVeambeSlice,
   reducers: {
     loadArtwork: (
@@ -14,10 +14,10 @@ const veambeSlice = createSlice({
       action: PayloadAction<VeambeStructure[]>,
     ): VeambeStateStructure => ({
       ...currentState,
-      artwork: action.payload,
+      artworks: action.payload,
     }),
   },
 });
 
-export const { loadArtwork: loadArtworkActionCreator } = veambeSlice.actions;
 export const veambeReducer = veambeSlice.reducer;
+export const { loadArtwork: loadArtworkActionCreator } = veambeSlice.actions;

@@ -1,12 +1,13 @@
 export interface VeambeStructure {
   _id: string;
+  category: string;
   title: string;
   description: string;
-  date: number;
+  date: string;
   location: string;
   image: string;
 }
 
 export interface VeambeStateStructure {
-  artwork: VeambeStructure[];
+  artworks: VeambeStructure[];
 }
