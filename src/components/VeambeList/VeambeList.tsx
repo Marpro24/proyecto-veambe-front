@@ -1,15 +1,16 @@
-import { useAppSelector } from "../../store/hooks";
-import VeambreListStyled from "./VeambeListStyled";
+import veambesApiMock from "../../data/VeambesApiMock";
+import VeambeCard from "../VeambeCard/VeambeCard";
+import VeambeListStyled from "./VeambeListStyled";
 
 const VeambeList = (): React.ReactElement => {
-  const artworkState = useAppSelector((state) => state.veambeState);
-
   return (
-    <VeambreListStyled>
-      {artworkState.artwork.map((artwork) => (
-        <li key={artwork._id}>{artwork.title}</li>
+    <VeambeListStyled>
+      {veambesApiMock.map((artwork) => (
+        <li key={artwork._id}>
+          <VeambeCard artwork={artwork} />
+        </li>
       ))}
-    </VeambreListStyled>
+    </VeambeListStyled>
   );
 };
 
