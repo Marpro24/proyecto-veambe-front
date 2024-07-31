@@ -8,7 +8,6 @@ const FooterStyled = styled.div`
   height: 85px;
   display: flex;
   justify-content: space-around;
-  position: absolute;
 
   .footer__text {
     color: ${({ theme }) => theme.colors.accent};
