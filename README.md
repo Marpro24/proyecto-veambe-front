@@ -1,30 +1,66 @@
-# React + TypeScript + Vite
+# Veambe 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to Veambe's Portfolio, a digital showcase of the artistic works of Veambe, an illustrator specializing in ceramics, illustrations, murals, engravings, self-publishing, textiles, and more.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Explore Artworks: View a diverse collection of Veambe's creations across multiple disciplines.
 
-## Expanding the ESLint configuration
+User-Friendly Navigation: Seamless browsing experience with React and React Router.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Modern UI: Styled with styled-components for a visually appealing interface.
 
-- Configure the top-level `parserOptions` property like this:
+Performance Optimized: Built with Vite for fast loading and efficient bundling.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Tech Stack
+
+- **Frontend Framework**: React with TypeScript
+
+- **State Management**: Redux Toolkit
+
+- **Styling**: Styled Components
+
+- **Routing**: React Router DOM
+
+- **Linting & Formatting**: ESLint, Prettier
+
+- **Testing**: Vitest
+
+- **Build & Development**: Vite
+
+- **Version Control Hooks**: Husky & Lint-Staged
+
+## Setup & Installation
+
+Clone the repository:
+
+```java
+git clone https://github.com/your-username/front-veambe.git
+cd front-veambe
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Install dependencies:
+
+```java
+npm install
+```
+
+Start the development server:
+
+```java
+npm run dev
+```
+
+Build for production:
+
+```java
+npm run build
+```
+
+Preview the production build:
+
+```java
+npm run preview
+```
+
+
